@@ -1,0 +1,102 @@
+/* Personal
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+/* Project Nav */
+.navbar-item {
+  position: relative;
+  float: left;
+  margin-bottom: 0;
+  text-decoration: none;
+  padding-right: 24px;
+  padding-bottom: 24px;
+ }
+.navbar-link {
+  font-family: univers-normal-bold;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d212999; }
+.navbar-link:hover{
+  color: #1D2129;
+}
+.navbar-link.active {
+  font-family: univers-normal-bold;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d2129;
+  text-shadow: 1px 2px 0 #6060bf80; 
+}
+/* Portfolio Projects */
+.portfolio body, p {
+  font-size: 20px; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 22px;
+  font-family: "univers-normal", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #1D2129; }
+.portfolio h1 {
+  font-size: 24px; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: "univers-bold-extended", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #1D2129; }
+.portfolio h3 {
+  font-size: 14px; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: "univers-condensed", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #1D2129; }
+.portfolio {
+  background-image: url('../images/orangegrid.png');
+  background-repeat: no-repeat;
+}
+@media (max-width: 500px) {
+  .metatags {
+    display: none;
+  }
+}
+.portfolio a.button {
+  border-radius: 5px;
+  width: 200px;
+  height: 60px;
+  box-shadow: 0 2px 4px 0 #00000040;
+  background-color: #e9ebee;
+  border: solid 1px #e9ebee;
+  font-family: "univers-condensed-bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  padding-top: 11px;
+}
+.portfolio a.button:hover {
+  transform: skew(-5deg);
+}
+.portfolio img:hover {
+  transform: skew(-5deg);
+}
+/* About */
+.about p {
+  font-family: "proxima-nova";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 22px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4b4f56;
+}
+.about h1 {
+  padding-top: 60px;
+}
+.about {
+  background-blend-mode: multiply;
+  background-image: linear-gradient(#e9ebee19, #e9ebee19);
+}
